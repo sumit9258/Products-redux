@@ -53,7 +53,7 @@ const LoginForm = () => {
           <div className="text-center mt-4 text-sm">
   Don't have an account?{" "}
   <span
-    onClick={() => navigate("/register")}
+    onClick={() => navigate("/")}
     className="text-blue-600 hover:underline cursor-pointer"
   >
     Register here
